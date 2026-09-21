@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         FLOATING BALLOONS
+    ========================== -->
+
+    <div class="balloons">
+
+        <div class="balloon balloon1">🎈</div>
+        <div class="balloon balloon2">🎈</div>
+        <div class="balloon balloon3">🎈</div>
+        <div class="balloon balloon4">🎈</div>
+        <div class="balloon balloon5">🎈</div>
+        <div class="balloon balloon6">🎈</div>
+
+    </div>
+
+
+    <!-- =========================
+         FLOATING HEARTS
+    ========================== -->
+
+    <div class="hearts">
+
+        <span>❤️</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>💗</span>
+        <span>💓</span>
+        <span>❤️</span>
+
+    </div>
+
+
+    <!-- =========================
+         MAIN BIRTHDAY CARD
+    ========================== -->
+
+    <div class="birthday-card">
+
+
+        <!-- GIFT -->
+
+        <div class="gift">
+            🎁
+        </div>
+
+
+        <!-- OPENING MESSAGE -->
+
+        <h1>
+            Hey My Sweetheart ❤️
+        </h1>
+
+
+        <p class="intro">
+            I made something special just for you... ✨
+        </p>
+
+
+        <!-- OPEN SURPRISE BUTTON -->
+
+        <button id="openBtn">
+            ✨ Open Your Surprise ✨
+        </button>
+
+
+        <!-- =========================
+             BIRTHDAY MUSIC
+        ========================== -->
+
+        <audio
+            id="birthdayMusic"
+            loop
+            preload="auto">
+
+            <source
+                src="./music/khat-1-45-to-3-00.mp3"
+                type="audio/mpeg">
+
+        </audio>
+
+
+        <!-- =========================
+             HIDDEN SURPRISE
+        ========================== -->
+
+        <div
+            id="surprise"
+            class="hidden">
+
+
+            <!-- =========================
+                 BIRTHDAY CAKE
+            ========================== -->
+
+            <div class="cake-container">
+
+                <div class="cake">
+                    🎂
+                </div>
+
+
+                <div class="candles">
+
+                    <span
+                        class="candle"
+                        data-candle="1">
+                        🕯️
+                    </span>
+
+                    <span
+                        class="candle"
+                        data-candle="2">
+                        🕯️
+                    </span>
+
+                    <span
+                        class="candle"
+                        data-candle="3">
+                        🕯️
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- WISH -->
+
+            <p class="wish-text">
+                🕯️ Make a wish and blow out the candles! ❤️
+            </p>
+
+
+            <p
+                id="wishMessage"
+                class="wish-message">
+
+                ✨ Your wish will come true! 💖 ✨
+
+            </p>
+
+
+            <!-- =========================
+                 BIRTHDAY HEADING
+            ========================== -->
+
+            <h2>
+                🎉 Happy Birthday! 🎉
+            </h2>
+
+
+            <p>
+                Today is a very special day because
+                someone very special was born. ❤️
+            </p>
+
+
+            <p class="love">
+
+                You deserve all the happiness,
+                love and beautiful moments in the world. 💖
+
+            </p>
+
+
+            <!-- HEARTS -->
+
+            <div class="hearts-message">
+
+                ❤️ 💕 ❤️ 💕 ❤️
+
+            </div>
+
+
+            <!-- =========================
+                 LOVE LETTER
+            ========================== -->
+
+            <div class="love-letter">
+
+                <div class="letter-icon">
+                    💌
+                </div>
+
+
+                <h3>
+                    A Little Message For You ❤️
+                </h3>
+
+
+                <p id="loveText"></p>
+
+            </div>
+
+
+            <!-- =========================
+                 PHOTO MEMORIES
+            ========================== -->
+
+            <section class="memories">
+
+
+                <h2>
+                    📸 A Little Journey Through You ❤️
+                </h2>
+
+
+                <p class="memories-intro">
+
+                    Every picture holds a beautiful memory...
+                    and every memory is special because it's you. 💕
+
+                </p>
+
+
+                <!-- PHOTO GALLERY -->
+
+                <div class="photo-gallery">
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo1.jpg"
+                            alt="Beautiful memory 1">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo2.jpg"
+                            alt="Beautiful memory 2">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo3.jpg"
+                            alt="Beautiful memory 3">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo4.jpg"
+                            alt="Beautiful memory 4">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo5.jpg"
+                            alt="Beautiful memory 5">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo6.jpg"
+                            alt="Beautiful memory 6">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo7.jpg"
+                            alt="Beautiful memory 7">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo8.jpg"
+                            alt="Beautiful memory 8">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo9.jpg"
+                            alt="Beautiful memory 9">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                    <div class="memory-photo">
+
+                        <img
+                            src="./photos/photo10.jpg"
+                            alt="Beautiful memory 10">
+
+                        <div class="photo-heart">
+                            ❤️
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 FINAL ROMANTIC MESSAGE
+            ========================== -->
+
+            <section class="final-message">
+
+
+                <div class="final-heart">
+                    💖
+                </div>
+
+
+                <h2>
+                    And Finally... ❤️
+                </h2>
+
+
+                <p class="final-quote">
+
+                    No matter how many pictures we take,
+                    my favorite memory will always be
+                    the moments I get to spend with you. 💕
+
+                </p>
+
+
+                <p class="final-love">
+
+                    You are one of the most beautiful
+                    parts of my life. ❤️
+
+                </p>
+
+
+                <p class="final-birthday">
+
+                    Happy Birthday, My Sweetheart! 🎂❤️
+
+                </p>
+
+
+                <p class="final-small">
+
+                    I hope this little surprise made you smile. ✨
+
+                </p>
+
+
+                <!-- FINAL BUTTON -->
+
+                <button id="finalBtn">
+
+                    💝 One More Surprise 💝
+
+                </button>
+
+
+                <!-- =========================
+                     FINAL SURPRISE
+                ========================== -->
+
+                <div
+                    id="finalSurprise"
+                    class="final-surprise hidden">
+
+
+                    <div class="big-heart">
+                        ❤️
+                    </div>
+
+
+                    <h3>
+                        You Mean So Much To Me ❤️
+                    </h3>
+
+
+                    <p>
+
+                        Thank you for being a beautiful
+                        part of my life. 💕
+
+                    </p>
+
+
+                    <p>
+
+                        Here's to many more smiles,
+                        memories and beautiful moments
+                        together. ✨
+
+                    </p>
+
+
+                    <div class="final-hearts">
+
+                        ❤️ 💖 💕 💗 ❤️
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
